@@ -1,7 +1,8 @@
 * {
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 header {
@@ -27,7 +28,7 @@ html {
 .cart {
     position: absolute;
     right: 44%;
-    top: 2%;
+    top: 3%;
 }
 .logo-container {
     flex: 1;
@@ -54,3 +55,43 @@ nav {
 .commission {
     display: flex;
 }
+
+main {
+    color: red;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.art-display {
+    margin-top: 2%;
+    display: grid;
+    height: 85vh;
+    width: 100%;
+    background-color: red;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 4rem;
+}
+
+.art1 {
+    background-color: orange;
+}
+
+.art2 {
+    background-color: blue;
+}
+.art3 {
+    background-color: green;
+}
+.art4 {
+    background-color: yellow;
+}
+.art5 {
+    background-color: purple;
+}
+.art6 {
+    background-color: cyan;
+}
+
+
+

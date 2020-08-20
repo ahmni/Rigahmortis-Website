@@ -1,2 +1,2 @@
 # Rigahmortis Website
- Art Commissions
+ A website for Art Commissions by Sharon, a friend
