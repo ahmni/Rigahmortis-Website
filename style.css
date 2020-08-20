@@ -1,0 +1,56 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+}
+
+.head {
+    display: flex;
+    padding: 0% 25% 0% 5%;
+    align-items: center;
+    height: 10vh;
+}
+
+html {
+    background-color: black;
+}
+
+.logo-container, .nav-links, .cart, .commission   {
+    display: flex;
+}
+
+.cart {
+    position: absolute;
+    right: 44%;
+    top: 2%;
+}
+.logo-container {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.nav-links {
+    flex: 1;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: purple;
+}
+
+.commission {
+    display: flex;
+}
